@@ -14,3 +14,12 @@ elif marks >= 50:
 else:
     grade = "Fail"
 print("Grade:", grade)
+if marks >= 90:
+    category = "Distinction"
+elif marks >= 75:
+    category = "First Class"
+elif marks >= 60:
+    category = "Second Class"
+else:
+    category = "No Class"
+print("Category:", category)
