@@ -1,4 +1,6 @@
 marks = int(input("Enter student marks: "))
+if marks < 0 or marks > 100:
+    print("Invalid marks! Please enter marks between 0 and 100.")
 if marks >= 90:
     grade = "Outstanding"
 elif marks >= 80:
