@@ -23,3 +23,13 @@ elif marks >= 60:
 else:
     category = "No Class"
 print("Category:", category)
+if marks >= 90:
+    remarks = "Excellent performance"
+elif marks >= 75:
+    remarks = "Very good performance"
+elif marks >= 60:
+    remarks = "Satisfactory performance"
+else:
+    remarks = "Needs improvement"
+
+print("Remarks:", remarks)
